@@ -12,7 +12,10 @@ public class OrdemServico
 
     public Cliente Cliente { get; set; }
     public Material Material { get; set; }
-    public Tecnico Tecnico{ get; set; }
+    public Tecnico Tecnico { get; set; }
+
+    public List<Material> Materiais { get; set; }
+    public List<Tecnico> Tecnicos{ get; set; }
 
 
 
